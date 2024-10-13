@@ -1,4 +1,5 @@
-arr = [1,2,3,4,5,6,7,8,9,10]
+
+# T: O(logn) S: O(1)
 
 def BinarySearch(arr,target):
     start, end = 0, len(arr)-1
@@ -32,6 +33,7 @@ def RecBinarySearch(start, end, arr, target):
         return RecBinarySearch(mid+1,end,arr, target)
 
 
+arr = [1,2,3,4,5,6,7,8,9,10]
 
 print(BinarySearch(arr,4))
 print(RecBinarySearch(0,len(arr),arr,4))

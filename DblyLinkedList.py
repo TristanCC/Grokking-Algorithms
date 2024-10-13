@@ -1,3 +1,9 @@
+#   Array:
+#   Reading: O(1) Insertion: O(n) Deletion: O(n)
+#   
+#   Linked List 
+#   Reading: O(n) Insertion: O(1) Deletion: O(1) (ONLY IF AT BEGINNING OR END) otherwise O(n)
+# 
 
 class Node:
     def __init__(self, val, next = None, prev = None) -> None:
